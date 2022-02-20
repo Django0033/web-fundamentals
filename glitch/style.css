@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    display:grid;
+    display: grid;
     grid-template-columns: 110px auto;
     align-items: center;
     font-family: Roboto, Arial, sans-serif;
@@ -69,7 +69,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 
 #content {
     max-width: 960px;
@@ -164,11 +163,15 @@ footer {
 /* } */
 
 @media screen and (max-width: 550px) {
-    .home-grid, nav ul, .banner-box, .social a {
+    .home-grid,
+    nav ul,
+    .banner-box,
+    .social a {
         display: block;
     }
 
-    .home-left-img, .home-right-img {
+    .home-left-img,
+    .home-right-img {
         max-width: 270px;
         margin: 0 0 1em 0;
     }
